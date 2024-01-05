@@ -1,0 +1,60 @@
+
+/* Unersel Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-pirmary{
+    color:#FD6E0A;
+}
+.btn-pirmary{
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 35px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+
+
+/* Header Section Area */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h3{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+
