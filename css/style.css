@@ -19,7 +19,7 @@ body{
     border: none;
     color: #fff;
     font-weight: 700;
-    padding: 18px 35px;
+    padding: 16px 32px;
     background-color: #FD6E0A;
     border-radius: 5px;
 }
@@ -31,9 +31,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 180px;
 }
 
-h3{
+.logo{
     color:#181818;
     font-size: 45px;
     font-weight: 800;
@@ -47,14 +48,94 @@ nav > ul{
 
 nav ul li{
     list-style: none;
-    margin-right: 50px;
+    margin-left: 50px;
 }
 
 nav ul li > a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+    text-align: center;
 }
 
+/* Header Style */
 
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 35px;
+    height: 100vh;
+}
+.banner{
+    padding: 30px 50px 0 180px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 499px;
+}
+.banner-content{
+    margin-top: -60px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner-content p{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    padding-right: 200px;
+    line-height: 30px;
+}
+.btn{
+    padding-top: 20px;
+}
+
+.btn-contact-pirmary{
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #fff;
+    color: #FD6E0A;
+}
+
+/* Main Section Style */
+
+/* About Section Style */
+
+.about{
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 100px 180px;
+}
+
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 15px 15px;
+}
 
