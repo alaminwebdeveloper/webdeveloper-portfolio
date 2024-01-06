@@ -121,11 +121,16 @@ nav ul li > a{
 /* About Section Style */
 
 .about{
-    padding: 100px 150px;
+    padding: 100px 0px;
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 100px 180px;
 }
+.section-content{
+    padding: 0px 150px;
+}
+
+
 
 .section-title{
     color: #181818;
@@ -162,7 +167,39 @@ nav ul li > a{
     line-height: 30px;
 }
 
+.content{
+    margin: 0 140px;
+}
 
+/* What I do Section Style */
+
+.skill-container{
+    display: flex;
+    margin: 20px 180px 100px 180px;
+}
+.skills{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-left: 20px;
+}
+.skills:first-child{
+    margin: 0;
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.skill-description{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+}
 
 
 
