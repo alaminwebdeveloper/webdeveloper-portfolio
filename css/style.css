@@ -249,9 +249,47 @@ nav ul li > a{
    text-align: center;
 }
 
+/* Footer Section Style */
 
+#footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 80px;
+    padding: 90px 180px;
+    gap: 60px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-item .section-title{
+    margin-bottom: 20px;
+    text-align: left;
+}
+.footer-item .section-description{
+    text-align: left;
+    padding: 0 0 15px 0;
+}
+.social-link a{
+    margin-right: 15px;
+    padding: 0;
+}
 
-
+.contact input[type="text"], [type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    background-color: #fff;
+    padding: 15px;
+    padding-left: 15px;
+    border: none;
+    width: 100%;
+    outline: none;
+    font-family: Open Sans;
+    border-radius: 5px;
+    
+}
 
 
 
