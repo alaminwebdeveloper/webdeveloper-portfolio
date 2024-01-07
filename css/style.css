@@ -201,10 +201,53 @@ nav ul li > a{
     line-height: 28px; 
 }
 
+/* Resume Section Style */
 
+.resume-container{
+    margin: 0 180px 0 180px;
+    display: flex;
+    gap: 50px;
+}
+.resume-column-title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content{
+    margin-bottom: 80px;
+}
 
-
-
+.resume-item-title{
+    font-size: 25px;
+    color: #474747;
+    font-weight: 700;
+}
+.resume-item-institute{
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    padding: 10px 0 15px 0;
+}
+.resume-item-description{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 100px;
+}
+.resume-item{
+    border-bottom: 1px solid #D1D1D1;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.resume-item:last-child{
+    border: none;
+}
+.btn-resume{
+   margin: 0 180px;
+   text-align: center;
+}
 
 
 
