@@ -23,7 +23,9 @@ body{
     background-color: #FD6E0A;
     border-radius: 5px;
 }
-
+.fa-solid{
+    padding-right: 10px;
+}
 
 /* Header Section Area */
 
@@ -32,6 +34,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 180px;
+    padding-top: 30px;
 }
 
 .logo{
@@ -62,10 +65,9 @@ nav ul li > a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    padding-top: 35px;
+    background-position: bottom right, top left;
     height: 100vh;
 }
 .banner{
@@ -75,6 +77,8 @@ nav ul li > a{
 }
 .banner .profile-pic{
     width: 499px;
+    margin-top: 5px;
+    
 }
 .banner-content{
     margin-top: -60px;
